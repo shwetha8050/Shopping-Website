@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #2e3c59;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #1d2b45;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ff5733;
+}
+
+/* Main Content Section */
+.main-content {
+    padding: 20px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 23%;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.product-card h4 {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.product-card p {
+    font-size: 1rem;
+    color: #888;
+}
+
+.product-card button {
+    padding: 10px 15px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer */
+footer {
+    background-color: #2e3c59;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Forms Section */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #2e3c59;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #1d2b45;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #2e3c59;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f4f7f6;
+}
